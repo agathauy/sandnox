@@ -1,0 +1,24 @@
+<svg width="55" height="55" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>- button</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-11605 495)">
+<g id="- button">
+<g id="Ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(11605 -495)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(11605 -495)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_stroke" transform="matrix(0.68982 -0.723981 0.723981 0.68982 11617.9 -466.245)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 55 27.5C 55 42.6878 42.6878 55 27.5 55C 12.3122 55 0 42.6878 0 27.5C 0 12.3122 12.3122 0 27.5 0C 42.6878 0 55 12.3122 55 27.5Z"/>
+<path id="path1_stroke_2x" d="M 50 27.5C 50 39.9264 39.9264 50 27.5 50L 27.5 60C 45.4493 60 60 45.4493 60 27.5L 50 27.5ZM 27.5 50C 15.0736 50 5 39.9264 5 27.5L -5 27.5C -5 45.4493 9.55075 60 27.5 60L 27.5 50ZM 5 27.5C 5 15.0736 15.0736 5 27.5 5L 27.5 -5C 9.55075 -5 -5 9.55075 -5 27.5L 5 27.5ZM 27.5 5C 39.9264 5 50 15.0736 50 27.5L 60 27.5C 60 9.55075 45.4493 -5 27.5 -5L 27.5 5Z"/>
+<path id="path2_stroke" d="M -1.80934 1.72519L 18.6907 23.2252L 22.3093 19.7748L 1.80934 -1.72519L -1.80934 1.72519Z"/>
+</defs>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "name": "sandnox-v2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "react": "^16.0.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "react-scrollbars": "^0.0.5",
+    "react-spinkit": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-server": "node ./server/app.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

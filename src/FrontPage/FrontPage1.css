@@ -1,0 +1,164 @@
+.frontpage-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sandnox-title {
+    color: white;
+    font-size: 2em;
+    text-shadow: 0 0 3px white;
+    letter-spacing: 10px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    position: absolute;
+    border-radius: 1em;
+    padding: 1em;
+    flex: 1;
+    display: inline-table;
+}
+
+::selection {
+    text-shadow: none;
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    text-shadow: none;
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+div.sandnox {
+    display: table-cell;
+    padding-right: 0.2em;
+}
+
+
+/* Blinking cursor */
+
+div.cursor {
+    background-color: white;
+    box-shadow: 0 0 3px white;
+    height: 0.2em;
+    width: 0.2em;
+    display: table-cell;
+    padding-top: -0.1em;
+    padding-bottom: -0.1em;
+    padding-left: 0.1em;
+    -webkit-animation: blink 2.0s linear 0s infinite;
+    -moz-animation: blink 2.0s linear 0s infinite;
+    -ms-animation: blink 2.0s linear 0s infinite;
+    -o-animation: blink 2.0s linear 0s infinite;
+}
+
+
+/*
+div.cursor {
+    display: inline-block;
+    background: #111;
+    margin-left: 1px;
+    -webkit-animation: blink 2s linear 0s infinite;
+    -moz-animation: blink 2s linear 0s infinite;
+    -ms-animation: blink 2s linear 0s infinite;
+    -o-animation: blink 2s linear 0s infinite;
+}
+*/
+
+@-webkit-keyframes blink {
+    0% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+    47% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+    50% {
+        background: #000;
+        box-shadow: none;
+    }
+    97% {
+        background: #000;
+        box-shadow: none;
+    }
+    100% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+    47% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+    50% {
+        background: #000;
+        box-shadow: none;
+    }
+    97% {
+        background: #000;
+        box-shadow: none;
+    }
+    100% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+}
+
+@-ms-keyframes blink {
+    0% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+    47% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+    50% {
+        background: #000;
+        box-shadow: none;
+    }
+    97% {
+        background: #000;
+        box-shadow: none;
+    }
+    100% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+    47% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+    50% {
+        background: #000;
+        box-shadow: none;
+    }
+    97% {
+        background: #000;
+        box-shadow: none;
+    }
+    100% {
+        background: white;
+        box-shadow: 0 0 3px white;
+    }
+}

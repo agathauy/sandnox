@@ -1,0 +1,91 @@
+@-webkit-keyframes blink {
+    0% {
+        background: white;
+        /*  box-shadow: 0 0 3px white;*/
+    }
+    47% {
+        background: white;
+        /*   box-shadow: 0 0 3px white;*/
+    }
+    50% {
+        background: #000;
+        box-shadow: none;
+    }
+    97% {
+        background: #000;
+        box-shadow: none;
+    }
+    100% {
+        background: white;
+        /*    box-shadow: 0 0 3px white;*/
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        background: white;
+        /*  box-shadow: 0 0 3px white; */
+    }
+    47% {
+        background: white;
+        /*    box-shadow: 0 0 3px white; */
+    }
+    50% {
+        background: #000;
+        box-shadow: none;
+    }
+    97% {
+        background: #000;
+        box-shadow: none;
+    }
+    100% {
+        background: white;
+        /*  box-shadow: 0 0 3px white; */
+    }
+}
+
+@-ms-keyframes blink {
+    0% {
+        background: white;
+        /* box-shadow: 0 0 3px white; */
+    }
+    47% {
+        background: white;
+        /* box-shadow: 0 0 3px white; */
+    }
+    50% {
+        background: #000;
+        box-shadow: none;
+    }
+    97% {
+        background: #000;
+        box-shadow: none;
+    }
+    100% {
+        background: white;
+        /*    box-shadow: 0 0 3px white; */
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        background: white;
+        /*    box-shadow: 0 0 3px white; */
+    }
+    47% {
+        background: white;
+        /*    box-shadow: 0 0 3px white; */
+    }
+    50% {
+        background: #000;
+        box-shadow: none;
+    }
+    97% {
+        background: #000;
+        box-shadow: none;
+    }
+    100% {
+        background: white;
+        /*     box-shadow: 0 0 3px white; */
+    }
+}
